@@ -60,7 +60,7 @@ $(document).ready(function () {
   
 
       $("#toggle").click(function () {
-        $(location).attr("href", "index-dog.html");
+        $(location).attr("href", "index.html");
         $("html, body").fadeIn(1000);
       });
 

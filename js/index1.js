@@ -66,7 +66,7 @@ $(document).ready(function () {
 
    
     $("#toggle").click(function () {
-      $(location).attr("href", "index-cat.html");
+      $(location).attr("href", "고양이.html");
       $("html, body").fadeIn(1000);
     });
 
