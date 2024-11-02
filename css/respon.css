@@ -1,0 +1,178 @@
+@media screen and (max-width:1200px) {
+  html {font-size: 16px;}
+  #header .inner {padding: 0 8%; justify-content: space-between; height: 100%; align-items: center;}
+  #header .nav {display: none;}
+  #header .logo, #header .btn, #header .icon {width: auto;}
+  #header .btn {margin-right: 1rem;}
+  #header .icon .hamburger-menu {display: block !important;}
+  #header .icon > div, #header .icon > a {width: 1.5rem; height: 1.5rem;}
+  .toggleSwitch {margin: 0;}
+  .toggleSwitch .toggleButton::after {font-size: 1rem;}
+  .main-banner .bx-wrapper .bx-pager.bx-default-pager a {width: 0.6rem; height: 0.6rem;}
+  .best-item .inner > p {font-size: 1.5rem;}
+  .best-item .num {font-size: 1.2rem;}
+  .best-item .shop-now {width: 13vw; height: calc(4.3vw);}
+  .best-item .shop-now p {font-size: 1rem;}
+  .best-item .shop-now .arrow {width: 0.8rem; height: 0.8rem; margin: 0;}
+  #main .inner {padding: 0 8%;}
+  .inner > p {font-size: 1.5rem;}
+  .product-box .box, .brandweek-box .box {width: 15vw;}
+  .product-box .box .product-img, .brandweek-box .box .product-img {height: calc(15vw); border-radius: 1.5rem;}
+  .product-box .box .product-name, .brandweek-box .box .product-name {font-size: .9rem;}
+  .product-box .box .txt-box, .brandweek-box .box .txt-box {height: 34%;}
+  .product-box .box p, .brandweek-box .box p {font-size: .8rem;}
+  .product-box .box .image-box .sale {width: 3.2rem; height: 3.2rem;}
+  .best-slider .first-slider, .best-slider .second-slider {gap: 30px;}
+  .best-slider .main-img {border-radius: 2rem;}
+  .best-slider .slide-box {gap: 10px;}
+  .best-slider .slide-box > p {font-size: 1rem;}
+  .best-slider .slider > div {margin-right: 15px !important; border-radius: 1.2rem; padding: 1rem;}
+  .best-slider .slider > div .slide-img {border-radius: .8rem;}
+  .best-slider .slider > div .text-box {height: 29%;}
+  .best-slider .slider > div .text-box .text p.name, .best-slider .slider > div .text-box .text p.price {
+    font-size: .75rem;}
+  .best-slider .slider > div .text-box .text p.name {letter-spacing: normal;}
+  .best-slider .slider .icon {gap: 5px;}
+  .best-slider .slider .icon-cart, .best-slider .slider .icon-heart, .best-slider .slider .icon-heart.active {background-size: 70% auto;}
+  .review .card {width: 23vw;}
+  .review .card .card-img {height: calc(23vw); background-size: 120% auto;}
+  .review .card3 .card-img {background-size: 130% auto;}
+  .review .card .main-txt .name {font-size: .9rem;}
+  .review .card .review-txt {font-size: .7rem; line-height: 1.2rem;}
+  .brand .brand-box .box .txt {font-size: 1rem;}
+  .brand .brand-box {grid-template-columns: 26vw 23vw 8.5vw 21.4vw; grid-template-rows: calc(20vw) calc(20vw);}
+  #footer .inner .information .info-1, #footer .inner .information .info-2 ul li a {font-size: .7rem;}
+  #footer .inner .information .info-2 ul {gap: 20px;}
+  #footer .inner .service-center .icon-box, #footer .inner .service-center .company-box {gap: 20px;}
+}
+
+
+
+
+@media screen and (max-width:960px) {
+  #header {height: 50px;}
+  #header .inner {padding: 0 5%;}
+  #header .logo a {margin: 0;}
+  #header .logo a img {display: block; width: 146.4px; height: 40px;}
+  #header .logo, #header .btn, #header .icon {width: auto;}
+  .toggleSwitch {width: 123.75px; height: 30px;}
+  .toggleSwitch .toggleButton {width: 60px; height: 20px;}
+  .toggleSwitch .toggleButton::after {font-size: .75rem; top: 2.5px; left: 13.5px;}
+  #header .icon {gap: .8rem;}
+  #header .icon > div, #header .icon > a {width: 1.3rem; height: 1.3rem;}
+  .hamburger-popup.active {top: 50px;}
+  .main-banner {margin-top: 50px;}
+  .main-banner .bx-wrapper .bx-pager.bx-default-pager a {width: 0.4rem; height: 0.4rem; margin: 0 .4rem;}
+  .best-item .inner > p, .inner > p {font-size: 1rem;}
+  #main .inner {padding: 0 5%;}
+  .best-item .num {font-size: 1rem;}
+  .best-item .explain, .best-item .shop-now p {font-size: .8rem;}
+  .best-item .shop-now {gap: 5px;}
+  .best-item .shop-now .arrow {width: 0.7rem; height: 0.7rem;}
+  .product-box .box, .brandweek-box .box {width: 16.5vw;}
+  .product-box .box .product-img, .brandweek-box .box .product-img {height: calc(16.5vw); border-radius: 1rem;}
+  .product-box .box .image-box .heart, .brandweek-box .box .image-box .heart {width: 1rem; height: 1rem;}
+  .product-box .box .image-box .sale {width: 2.5rem; height: 2.5rem;}
+  .product-box .box .txt-box, .brandweek-box .box .txt-box {height: 40%;}
+  .product-box .box .product-name, .brandweek-box .box .product-name {font-size: .8rem;}
+  .product-box .box p, .brandweek-box .box p {font-size: .75rem;}
+  .best-slider .main-img {border-radius: 1rem;}
+  .best-slider .first-slider, .best-slider .second-slider {gap: 20px;}
+  .best-slider .slide-box > p {font-size: .8rem;}
+  .best-slider .slider > div {border-radius: .8rem; padding: .6rem;}
+  .best-slider .slider > div .slide-img {border-radius: .6rem;}
+  .best-slider .slider > div .text-box .text p.name, .best-slider .slider > div .text-box .text p.price  {font-size: .6rem;}
+  .best-slider .slider .icon-cart, .best-slider .slider .icon-heart {width: 1rem; height: 1rem;}
+  .review .card {width: 25vw;}
+  .brand .brand-box {grid-template-columns: 27vw 23vw 10.5vw 22.4vw;
+    grid-template-rows: calc(22vw) calc(22vw);}
+  .brand .brand-box .box {border-radius: .8rem;}
+  .brand .brand-box .box .txt {font-size: .9rem;}
+  #footer .inner {padding: 5%;}
+  #footer .inner .service-center .company {width: 58px; height: 30px;}
+  .go-top {width: 2.5rem; height: 2.5rem;}
+  .go-top a {line-height: 2.5rem; font-size: .9rem;}
+}
+
+
+
+
+@media screen and (max-width:720px) {
+  html {font-size: 14px;}
+  #header {height: 40px;}
+  #header .inner {padding: 0 3%;}
+  #header .logo a img {width: 109.8px; height: 30px;}
+  #header .icon > div, #header .icon > a {width: 1.1rem; height: 1.1rem;}
+  .hamburger-popup.active {top: 40px;}
+  #main .inner {padding: 0 3%;}
+  .main-banner {margin-top: 40px;}
+  .best-item .num {width: 5.5vw; height: calc(5.5vw); line-height: 5.5vw;}
+}
+
+
+
+
+@media screen and (max-width:540px) {
+  .hamburger-popup {left: 0; right: 0; bottom: 0; top: 0; }
+  .hamburger-popup .nav .depth1 {display: block; }
+  .hamburger-popup .hamburger-popup-wrapper {position: absolute; left: 30%; right: 0; top: 0; bottom: 0;}
+  .hamburger-popup .nav .depth1 > li {border: none; margin-bottom: 1rem;}
+  .hamburger-popup .nav .depth1 > li > a {font-size: 1rem; text-align: left;}
+  .hamburger-popup .nav .depth2 { display: flex; flex-wrap: wrap; padding: 0; align-content: space-around; justify-content: flex-start;}
+  .hamburger-popup .nav .depth2 li {width: 50%; height: 30%;}
+  .hamburger-popup .nav .depth2 li a {text-align: left; line-height: 1.5rem;}
+  .best-item .num {font-size: .8rem;}
+  .best-item .name {font-size: .9rem;}
+  .best-item .explain, .best-item .shop-now p {font-size: .65rem;}
+  .best-item .shop-now {width: 16vw;}
+  .best-slider .inner {padding: 5% 2% !important;}
+  .best-slider .main-img {display: none;}
+  .best-slider .slide-box {width: 100vw;}
+  .best-slider .slide-box > p {text-align: center;}
+  .best-slider .slide-box .bx-wrapper .bx-viewport {height: calc(48vw) !important;}
+  .best-slider .slider > div {margin-right: 10px !important; width: 32vw !important; height: calc(48vw) !important;}
+  .best-slider .slider > div .slide-img {height: calc(27.916vw);}
+  .best-slider .slider > div .text-box .text p.name, .best-slider .slider > div .text-box .text p.price {font-size: .7rem;}
+  .best-slider .slider .icon-cart, .best-slider .slider .icon-heart {width: 1.3rem; height: 1.3rem;}
+  .review .card {width: 26vw;}
+  .review .card .card-img {height: calc(26vw);}
+  .review .card .main-txt {margin-top: 8%;}
+  .review .card .main-txt .name, .review .card .main-txt .star {font-size: .9rem;}
+  .review .card .review-txt, .brand .brand-box .box .txt {font-size: .65rem;}
+  #footer .inner {padding: 2%; gap: 20px;}
+  #footer .inner .information {gap: 40px;}
+  #footer .inner .information .info-1, #footer .inner .information .info-2 ul li a, #footer .inner .service-center .service-info ul li {font-size: .6rem;}
+  #footer .inner .information .info-2 ul {gap: 14px;}
+  #footer .inner .service-center .company {width: 38.7px; height: 20px;}
+}
+
+
+
+
+@media screen and (max-width:360px) {
+  html {font-size: 12px;}
+  #header {height: 30px;}
+  #header .inner {padding: 0 2%;}
+  #header .logo a img {width: 73.2px; height: 20px;}
+  #header .btn {margin-right: 0;}
+  .toggleSwitch {width: 82.5px; height: 20px;}
+  .toggleSwitch .toggleButton {width: 36px; height: 10px;}
+  .toggleSwitch .toggleButton::after {font-size: .65rem; top: -0.5px; left: 7.5px;}
+  #header .icon > div, #header .icon > a {width: 1rem; height: 1rem;}
+  .hamburger-popup.active {top: 30px;}
+  #main .inner {padding: 0 2%;}
+  .main-banner {margin-top: 30px;}
+  .best-item .name {font-size: .85rem;}
+  .best-item .explain, .best-item .shop-now p {font-size: .6rem;}
+  .best-item .item-img {width: 22vw; height: calc(22vw);}
+  .product-box .box .product-img, .brandweek-box .box .product-img {border-radius: .6rem; box-shadow: 0 0 5px rgba(80,80,80,0.5);}
+  .product-box .box .txt-box, .brandweek-box .box .txt-box {height: 45%;}
+  .product-box .box .product-name, .brandweek-box .box .product-name {font-size: .7rem;}
+  .product-box .box .image-box .sale {width: 2rem; height: 2rem;}
+  .best-slider .slider > div .text-box .text p.name, .best-slider .slider > div .text-box .text p.price {font-size: .65rem;}
+  .review .card .review-txt, .brand .brand-box .box .txt {font-size: .6rem;}
+  #footer .inner .information {gap: 20px;}
+  #footer .inner .information .info-2 ul {gap: 5px;}
+  #footer .inner .service-center .icon-box .icon {width: 20px; height: 20px;}
+  #footer .inner .service-center .icon-box, #footer .inner .service-center .company-box {gap: 10px;}
+}

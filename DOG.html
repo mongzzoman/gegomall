@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>gegomall</title>
+    <!-- 폰트어썸 -->
+    <script
+      src="https://kit.fontawesome.com/489e60e2cf.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- jquery cdn -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <!-- bx-slider -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bxslider@4.2.17/dist/jquery.bxslider.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bxslider@4.2.17/dist/jquery.bxslider.min.js"></script>
+    <!-- animate-aos JS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- css -->
+    <link rel="stylesheet" href="css/default.css" />
+    <link rel="stylesheet" href="css/dog.css" />
+    <link rel="stylesheet" href="css/respon.css" />
+    <!-- js -->
+    <script src="js/index1.js" defer></script>
+  </head>
+  <body>
+    <div id="wrap">
+        <header id="header">
+            <div class="inner">
+                <div class="logo">
+                    <a href="#" onclick="location.href='DOG.html'">
+                        <img
+                          src="images/GegoMall_LOGO.png"
+                          alt="개고몰로고"
+                          height="50px"
+                        />
+                      </a>
+                </div>
+                <div class="btn">
+                    <input type="checkbox" id="toggle" hidden />
+                    <label for="toggle" class="toggleSwitch">
+                      <span class="toggleButton">
+                      </span>
+                    </label>
+                </div>
+                <nav class="nav">
+                <ul class="depth1">
+                    <li>
+                    <a href="#">FASHION</a>
+                    <div>
+                        <ul class="depth2">
+                            <li><a href="#">꼬까옷</a></li>
+                            <li><a href="#">이름표</a></li>
+                            <li><a href="#">선글라스</a></li>
+                            <li><a href="#">머리띠/머리핀</a></li>
+                            <li><a href="#">모자</a></li>
+                            <li><a href="#">스카프</a></li>
+                        </ul>
+                    </div>
+                    </li>
+                    <li>
+                    <a href="#">LIFE</a>
+                    <div>
+                        <ul class="depth2">
+                            <li><a href="#">샴푸/린스/컨디셔너</a></li>
+                            <li><a href="#">미용/목욕용품</a></li>
+                            <li><a href="#">장난감/훈련용품</a></li>
+                            <li><a href="#">이동장/울타리</a></li>
+                            <li><a href="#">산책용품</a></li>
+                            <li><a href="#">위생용품</a></li>
+                            <li><a href="#">쿠션/하우스</a></li>
+                        </ul>
+                    </div>
+                    </li>
+                    <li>
+                    <a href="#">HEALTH</a>
+                    <div>
+                        <ul class="depth2">
+                            <li><a href="#">영양간식</a></li>
+                            <li><a href="#">영양제</a></li>
+                            <li><a href="#">영양사료</a></li>
+                            <li><a href="#">의약부외품</a></li>
+                        </ul>
+                    </div>
+                    </li>
+                    <li>
+                    <a href="#">FOOD</a>
+                    <div>
+                        <ul class="depth2">
+                            <li><a href="#">테스트용 사료샘플</a></li>
+                            <li><a href="#">건조 간식</a></li>
+                            <li><a href="#">스틱</a></li>
+                            <li><a href="#">습식캔</a></li>
+                            <li><a href="#">스낵</a></li>
+                            <li><a href="#">캣닢/캣그라스</a></li>
+                            <li><a href="#">분유/이유식</a></li>
+                        </ul>
+                    </div>
+                    </li>
+                </ul>
+                </nav>
+                <div class="icon">
+                    <div class="search"></div>
+                    <a href="" class="mypage"></a>
+                    <a href="" class="cart"></a>
+                    <div class="hamburger-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="bg_snb"></div>
+        <div class="hamburger-popup">
+            <div class="hamburger-popup-wrapper">
+                <nav class="nav">
+                    <ul class="depth1">
+                        <li>
+                        <a href="#">FASHION</a>
+                        <div>
+                            <ul class="depth2">
+                            <li><a href="#">꼬까옷</a></li>
+                            <li><a href="#">이름표</a></li>
+                            <li><a href="#">선글라스</a></li>
+                            <li><a href="#">머리띠/머리핀</a></li>
+                            <li><a href="#">모자</a></li>
+                            <li><a href="#">스카프</a></li>
+                            </ul>
+                        </div>
+                        </li>
+                        <li>
+                        <a href="#">LIFE</a>
+                        <div>
+                            <ul class="depth2">
+                            <li><a href="#">샴푸/린스/컨디셔너</a></li>
+                            <li><a href="#">미용/목욕용품</a></li>
+                            <li><a href="#">장난감/훈련용품</a></li>
+                            <li><a href="#">이동장/울타리</a></li>
+                            <li><a href="#">산책용품</a></li>
+                            <li><a href="#">위생용품</a></li>
+                            <li><a href="#">쿠션/하우스</a></li>
+                            </ul>
+                        </div>
+                        </li>
+                        <li>
+                        <a href="#">HEALTH</a>
+                        <div>
+                            <ul class="depth2">
+                            <li><a href="#">영양간식</a></li>
+                            <li><a href="#">영양제</a></li>
+                            <li><a href="#">영양사료</a></li>
+                            <li><a href="#">의약부외품</a></li>
+                            </ul>
+                        </div>
+                        </li>
+                        <li>
+                        <a href="#">FOOD</a>
+                        <div>
+                            <ul class="depth2">
+                            <li><a href="#">테스트용 사료샘플</a></li>
+                            <li><a href="#">건조 간식</a></li>
+                            <li><a href="#">스틱</a></li>
+                            <li><a href="#">습식캔</a></li>
+                            <li><a href="#">스낵</a></li>
+                            <li><a href="#">캣닢/캣그라스</a></li>
+                            <li><a href="#">분유/이유식</a></li>
+                            </ul>
+                        </div>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <main id="main">
+            <div class="main-banner">
+                <div class="slider">
+                    <div class="banner banner1"></div>
+                    <div class="banner banner2"></div>
+                    <div class="banner banner3"></div>
+                </div>
+            </div>
+            <div class="best-item">
+                <div class="inner">
+                    <p>이번 주 인기 아이템</p>
+                    <div class="item">
+                        <div class="item01">
+                            <p class="num">01</p>
+                            <p class="name">닥터할리 펫 유산균</p>
+                            <p class="explain">180ml 강아지 고양이용</p>
+                            <div class="item-img"></div>
+                            <a href="" class="shop-now">
+                                <p>shop now</p>
+                                <div class="arrow"></div>
+                            </a>
+                        </div>
+                        <div class="item02">
+                            <p class="num">02</p>
+                            <p class="name">해피스마일 베드 원형침대</p>
+                            <p class="explain">다리가 짧은 견종도 편하게 이용 가능</p>
+                            <div class="item-img"></div>
+                            <a href="" class="shop-now">
+                                <p>shop now</p>
+                                <div class="arrow"></div>
+                            </a>
+                        </div>
+                        <div class="item03">
+                            <p class="num">03</p>
+                            <p class="name">리틀프렌즈 후리스 점퍼</p>
+                            <p class="explain">신축성이 좋고 부드럽고 가벼운 후리스</p>
+                            <div class="item-img"></div>
+                            <a href="" class="shop-now">
+                                <p>shop now</p>
+                                <div class="arrow"></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product">
+                <div class="inner">
+                    <p>product</p>
+                    <div class="product-box">
+                        <div class="box box1">
+                            <div class="image-box">
+                                <div class="product-img">
+                                    <div class="image"></div>
+                                </div>
+                                <div class="sale"></div>
+                                <div class="heart"></div>
+                            </div>
+                            <div class="txt-box">
+                                <p class="product-name">4in1 PET 퍼퓸 스프레이</p>
+                                <p class="product-price">27,900원</p>
+                            </div>
+                        </div>
+                        <div class="box box2">
+                            <div class="image-box">
+                                <div class="product-img">
+                                    <div class="image"></div>
+                                </div>
+                                <div class="sale"></div>
+                                <div class="heart"></div>
+                            </div>
+                            <div class="txt-box">
+                                <p class="product-name">꿈틀꿈틀 애벌레 인형</p>
+                                <p class="product-price">64,000원</p>
+                            </div>
+                        </div>
+                        <div class="box box3">
+                            <div class="image-box">
+                                <div class="product-img">
+                                    <div class="image"></div>
+                                </div>
+                                <div class="sale"></div>
+                                <div class="heart"></div>
+                            </div>
+                            <div class="txt-box">
+                                <p class="product-name">반려견 스마일 꽃 하네스</p>
+                                <p class="product-price">39,500원</p>
+                            </div>
+                        </div>
+                        <div class="box box4">
+                            <div class="image-box">
+                                <div class="product-img">
+                                    <div class="image"></div>
+                                </div>
+                                <div class="sale"></div>
+                                <div class="heart"></div>
+                            </div>
+                            <div class="txt-box">
+                                <p class="product-name">강아지 전용 라이딩 고글</p>
+                                <p class="product-price">24,000원</p>
+                            </div>
+                        </div>
+                        <div class="box box5">
+                            <div class="image-box">
+                                <div class="product-img">
+                                    <div class="image"></div>
+                                </div>
+                                <div class="sale"></div>
+                                <div class="heart"></div>
+                            </div>
+                            <div class="txt-box">
+                                <p class="product-name">esc 반려동물 쇼파 & 쿠션</p>
+                                <p class="product-price">13,900원</p>
+                            </div>
+                        </div>
+                        <div class="box box6">
+                            <div class="image-box">
+                                <div class="product-img">
+                                    <div class="image"></div>
+                                </div>
+                                <div class="sale"></div>
+                                <div class="heart"></div>
+                            </div>
+                            <div class="txt-box">
+                                <p class="product-name">co2 프리미엄 오리목뼈 100g</p>
+                                <p class="product-price">8,500원</p>
+                            </div>
+                        </div>
+                        <div class="box box7">
+                            <div class="image-box">
+                                <div class="product-img">
+                                    <div class="image"></div>
+                                </div>
+                                <div class="sale"></div>
+                                <div class="heart"></div>
+                            </div>
+                            <div class="txt-box">
+                                <p class="product-name">강아지 우비 장화 1set</p>
+                                <p class="product-price">34,700원</p>
+                            </div>
+                        </div>
+                        <div class="box box8">
+                            <div class="image-box">
+                                <div class="product-img">
+                                    <div class="image"></div>
+                                </div>
+                                <div class="sale"></div>
+                                <div class="heart"></div>
+                            </div>
+                            <div class="txt-box">
+                                <p class="product-name">강아지 드라이기 고정 거치대</p>
+                                <p class="product-price">9,400원</p>
+                            </div>
+                        </div>
+                        <div class="box box9">
+                            <div class="image-box">
+                                <div class="product-img">
+                                    <div class="image"></div>
+                                </div>
+                                <div class="sale"></div>
+                                <div class="heart"></div>
+                            </div>
+                            <div class="txt-box">
+                                <p class="product-name">강아지 전용 터키 간식</p>
+                                <p class="product-price">12,000원</p>
+                            </div>
+                        </div>
+                        <div class="box box10">
+                            <div class="image-box">
+                                <div class="product-img">
+                                    <div class="image"></div>
+                                </div>
+                                <div class="sale"></div>
+                                <div class="heart"></div>
+                            </div>
+                            <div class="txt-box">
+                                <p class="product-name">강아지화식 odam pet food</p>
+                                <p class="product-price">17,900원</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="best-slider">
+                <div class="inner">
+                    <div class="first-slider">
+                        <div class="main-img"></div>
+                        <div class="slide-box">
+                            <p>맛과 영양소가 풍부한 사료 모음! 🥣 🍖</p>
+                            <div class="slider slider01">
+                                <div class="slide1">
+                                    <div class="slide-img"></div>
+                                    <div class="text-box">
+                                        <div class="text">
+                                            <p class="name">FARMER’S TABLE<br />PORK 2kg</p>
+                                            <p class="price">42,000원</p>
+                                        </div>
+                                        <div class="icon">
+                                            <div class="icon-cart"></div>
+                                            <div class="icon-heart"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slide2">
+                                    <div class="slide-img"></div>
+                                    <div class="text-box">
+                                        <div class="text">
+                                            <p class="name">ROYAL CANIN Abult<br />MINI 10kg</p>
+                                            <p class="price">99,700원</p>
+                                        </div>
+                                        <div class="icon">
+                                            <div class="icon-cart"></div>
+                                            <div class="icon-heart"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slide3">
+                                    <div class="slide-img"></div>
+                                    <div class="text-box">
+                                        <div class="text">
+                                            <p class="name">ROYAL CANIN MEDUM<br />Adult 8kg
+                                            <p class="price">75,900원</p>
+                                        </div>
+                                        <div class="icon">
+                                            <div class="icon-cart"></div>
+                                            <div class="icon-heart"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slide4">
+                                    <div class="slide-img"></div>
+                                    <div class="text-box">
+                                        <div class="text">
+                                            <p class="name">AVO Derm NATURAL<br />치킨&현미 1kg</p>
+                                            <p class="price">25,000원</p>
+                                        </div>
+                                        <div class="icon">
+                                            <div class="icon-cart"></div>
+                                            <div class="icon-heart"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slide5">
+                                    <div class="slide-img"></div>
+                                    <div class="text-box">
+                                        <div class="text">
+                                            <p class="name">키츠가든 비바에센셜<br />가수분해 연어 1.5kg</p>
+                                            <p class="price">28,000원</p>
+                                        </div>
+                                        <div class="icon">
+                                            <div class="icon-cart"></div>
+                                            <div class="icon-heart"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slide6">
+                                    <div class="slide-img"></div>
+                                    <div class="text-box">
+                                        <div class="text">
+                                            <p class="name">프론티어 비프 트라이프<br />스트립(소 위장)140g</p>
+                                            <p class="price">26,000원</p>
+                                        </div>
+                                        <div class="icon">
+                                            <div class="icon-cart"></div>
+                                            <div class="icon-heart"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="second-slider">
+                        <div class="main-img"></div>
+                        <div class="slide-box">
+                            <p>산책 할 때 필수 아이템들 모음! 🐕‍🦺 🦮</p>
+                            <div class="slider slider02">
+                                <div class="slide1">
+                                    <div class="slide-img"></div>
+                                    <div class="text-box">
+                                        <div class="text">
+                                            <p class="name">리드줄 결합<br />친환경 배변봉투 1set</p>
+                                            <p class="price">7,900원</p>
+                                        </div>
+                                        <div class="icon">
+                                            <div class="icon-cart"></div>
+                                            <div class="icon-heart"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slide2">
+                                    <div class="slide-img"></div>
+                                    <div class="text-box">
+                                        <div class="text">
+                                            <p class="name">강아지 산책 사료 물통</p>
+                                            <p class="price">15,700원</p>
+                                        </div>
+                                        <div class="icon">
+                                            <div class="icon-cart"></div>
+                                            <div class="icon-heart"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div  class="slide3">
+                                    <div class="slide-img"></div>
+                                    <div class="text-box">
+                                        <div class="text">
+                                            <p class="name">내추럴 코어<br />친환경 프리스비</p>
+                                            <p class="price">13,200원</p>
+                                        </div>
+                                        <div class="icon">
+                                            <div class="icon-cart"></div>
+                                            <div class="icon-heart"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slide4">
+                                    <div class="slide-img"></div>
+                                    <div class="text-box">
+                                        <div class="text">
+                                            <p class="name">리얼 독<br />앞섬방지 L형 하네스</p>
+                                            <p class="price">8,900원</p>
+                                        </div>
+                                        <div class="icon">
+                                            <div class="icon-cart"></div>
+                                            <div class="icon-heart"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slide5">
+                                    <div class="slide-img"></div>
+                                    <div class="text-box">
+                                        <div class="text">
+                                            <p class="name">패리독스 코튼<br />웨빙 하네스</p>
+                                            <p class="price">12,000원</p>
+                                        </div>
+                                        <div class="icon">
+                                            <div class="icon-cart"></div>
+                                            <div class="icon-heart"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slide6">
+                                    <div class="slide-img"></div>
+                                    <div class="text-box">
+                                        <div class="text">
+                                            <p class="name">패리독스 심플 패턴<br />백팩 하네스+리드줄</p>
+                                            <p class="price">15,000원</p>
+                                        </div>
+                                        <div class="icon">
+                                            <div class="icon-cart"></div>
+                                            <div class="icon-heart"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="brand-week">
+                <div class="inner">
+                    <p>brand week</p>
+                    <div class="brandweek-box">
+                        <div class="box box1">
+                            <div class="image-box">
+                                <div class="product-img">
+                                    <div class="image"></div>
+                                </div>
+                                <div class="heart"></div>
+                            </div>
+                            <div class="txt-box">
+                                <p class="product-name">[빈즈라이크] <br />CO2 오리목뼈 100g</p>
+                                <p class="product-price">8,500원</p>
+                            </div>
+                        </div>
+                        <div class="box box2">
+                            <div class="image-box">
+                                <div class="product-img">
+                                    <div class="image"></div>
+                                </div>
+                                <div class="sale"></div>
+                                <div class="heart"></div>
+                            </div>
+                            <div class="txt-box">
+                                <p class="product-name">[패리스독] <br />쁘띠 굿슬립 카시트</p>
+                                <p class="product-price">54,000원</p>
+                            </div>
+                        </div>
+                        <div class="box box3">
+                            <div class="image-box">
+                                <div class="product-img">
+                                    <div class="image"></div>
+                                </div>
+                                <div class="sale"></div>
+                                <div class="heart"></div>
+                            </div>
+                            <div class="txt-box">
+                                <p class="product-name">[매직브러쉬] <br />강아지 고양이 소프트 브러쉬</p>
+                                <p class="product-price">15,500원</p>
+                            </div>
+                        </div>
+                        <div class="box box4">
+                            <div class="image-box">
+                                <div class="product-img">
+                                    <div class="image"></div>
+                                </div>
+                                <div class="sale"></div>
+                                <div class="heart"></div>
+                            </div>
+                            <div class="txt-box">
+                                <p class="product-name">[디어도르]<br />esc 반려동물 쇼파 & 쿠션</p>
+                                <p class="product-price">13,500원</p>
+                            </div>
+                        </div>
+                        <div class="box box5">
+                            <div class="image-box">
+                                <div class="product-img">
+                                    <div class="image"></div>
+                                </div>
+                                <div class="sale"></div>
+                                <div class="heart"></div>
+                            </div>
+                            <div class="txt-box">
+                                <p class="product-name">[쥬쥬베] <br />북유럽 스트라이프 3단스텝</p>
+                                <p class="product-price">48,000원</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="review">
+                <p>[ 소중한 고객님들의 감사한 후기 모음❤️]</p>
+                <div class="inner">
+                    <div class="card card1">
+                        <div class="card-img"></div>
+                        <div class="txt">
+                            <div class="main-txt">
+                                <p class="name">김동우 님</p>
+                                <div class="star">★★★★★</div>
+                            </div>
+                            <p class="review-txt">
+                                만두가 잇몸이 약한 편인데 미세모로 되어있는 칫솔이라 잇몸에 피도 안나고 만두도 양치하는 걸 거부하지 않아서 너무 좋아요! 완전 강추합니다!!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card card2">
+                        <div class="card-img"></div>
+                        <div class="txt">
+                            <div class="main-txt">
+                                <p class="name">임예나 님</p>
+                                <div class="star">★★★★★</div>
+                            </div>
+                            <p class="review-txt">
+                                쪼꼬가 호불호가 강해서 사료도 간식도 자기가 먹고 싶은 것만 먹어요ㅠ0ㅠ 병원에서 말랐다고 해서 속상했는데 츄르는 아주 잘 먹어서 걱정 덜었어요!!!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card card3">
+                        <div class="card-img"></div>
+                        <div class="txt">
+                            <div class="main-txt">
+                                <p class="name">정소윤 님</p>
+                                <div class="star">★★★★☆</div>
+                            </div>
+                            <p class="review-txt">
+                                저희 집 강아지가 간식을 엄청 좋아하는 편인데 여기 있는 제품들은 퀄리티도 좋고 배송도 빨라서 너무 좋아요! 빠른 배송 원할 땐 개고몰!!
+                            </p>
+                        </div>
+                    </div>
+                    <!-- <div class="card card4">
+                        <div class="card-img"></div>
+                        <div class="txt">
+                            <div class="main-txt">
+                                <p class="name">임예나 님</p>
+                                <div class="star">★★★★☆</div>
+                            </div>
+                            <p class="review-txt">
+                                만두가 잇몸이 약한 편인데 미세모로 되어있는 칫솔이라 잇몸에 피도 안나고 만두도 양치하는 걸 거부하지 않아서 너무 좋아요! 완전 강추합니다!!
+                            </p>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+            <div class="brand">
+                <div class="inner">
+                    <p>brand</p>
+                    <div class="brand-box">
+                        <div class="box box1">
+                            <div class="image"></div>
+                            <div class="txt">ANF 6 Free+</div>
+                        </div>
+                        <div class="box box2">
+                            <div class="image"></div>
+                            <div class="txt">K9 NATURAL</div>
+                        </div>
+                        <div class="box box3">
+                            <div class="image"></div>
+                            <div class="txt">GO NATIVE</div>
+                        </div>
+                        <div class="box box4">
+                            <div class="image"></div>
+                            <div class="txt">NARUTAL greatness</div>
+                        </div>
+                        <div class="box box5">
+                            <div class="image"></div>
+                            <div class="txt">HARUWELL</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer id="footer">
+            <div class="inner">
+                <div class="information">
+                    <div class="logo"></div>
+                    <ul class="info-1">
+                        <li>대표 : 권미경</li>
+                        <li>사업자등록번호 : 122-25-38890</li>
+                        <li>통신판매업신고번호 : 제 2017-인천서구-0233호</li>
+                        <li>메일 : gegomall@naver.com</li>
+                        <li>호스팅제공 : 엔에이치엔고도(주)</li>
+                        <li>주소 : 인천광역시 서구 보석로11번길안길 14 1층 개고몰</li>
+                    </ul>
+                    <div class="info-2">
+                        <ul>
+                            <li><a href="">회사소개</a></li>
+                            <li><a href="">이용약관</a></li>
+                            <li><a href="">개인정보처리방침</a></li>
+                            <li><a href="">제휴/문의</a></li>
+                        </ul>
+                        <div class="copyright">COPTRIGHT (C) TEAM1 ALL Rights Reserves</div>
+                    </div>
+                </div>
+                <div class="service-center">
+                    <div class="icon-box">
+                        <div class="icon icon1"></div>
+                        <div class="icon icon2"></div>
+                        <div class="icon icon3"></div>
+                        <div class="icon icon4"></div>
+                    </div>
+                    <div class="service-info">
+                        <p>고객지원센터</p>
+                        <ul>
+                            <li>대표번호 : 070-7559-5719</li>
+                            <li>팩스번호 : 070-7614-3123</li>
+                            <li>TEL : 02-3964-3123</li>
+                            <li>평일 오전 10부터 오후 7시까지/점심시간 12시부터 1시까지</li>
+                            <li>토요일 오전 10시부터 오후 3시까지</li>
+                            <li>일요일 휴무</li>
+                        </ul>
+                    </div>
+                    <div class="company-box">
+                        <div class="company company1"></div>
+                        <div class="company company2"></div>
+                        <div class="company company3"></div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="go-top">
+            <a href="">top</a>
+        </div>
+    </div>
+  </body>
