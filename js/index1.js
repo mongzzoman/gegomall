@@ -66,7 +66,7 @@ $(document).ready(function () {
 
    
     $("#toggle").click(function () {
-      $(location).attr("href", "CAT.html");
+      $(location).attr("href", "index-cat.html");
       $("html, body").fadeIn(1000);
     });
 
